@@ -1,0 +1,80 @@
+.encabezado {
+    background-color: aliceblue;
+    
+}
+
+
+.logoNav {
+    width: 100px;
+    height: 50px;
+
+}
+
+.fuentesNav {
+    text-transform: uppercase;
+    font-size: 1rem;
+    padding-left: 15px;
+
+}
+
+.fuentesNav a:hover {
+    background-color: white;
+    color: black;
+}
+
+.subrayado {
+    background-color: lightblue;
+}
+
+body {
+
+    background-color: #868686;
+}
+
+
+
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+
+}
+
+.tituloProductos {
+    margin-top: 15px;
+    background-color: aliceblue;
+    color: black;
+    text-align: center;
+    text-transform: lowercase;
+    font-weight: bold;
+    font-style: italic;
+    padding: 16px;
+}
+
+footer {
+    background-color: #333; 
+    color: white; 
+    text-align: center; 
+    padding: 20px; 
+}
+
+.productos {
+    padding: 20px;
+    max-height: 150px;
+}
