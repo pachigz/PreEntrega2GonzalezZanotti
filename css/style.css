@@ -26,13 +26,6 @@
     background-color: lightblue;
 }
 
-body {
-
-    background-color: #868686;
-}
-
-
-
 
 form {
     margin-top: 20px;
@@ -45,7 +38,7 @@ label {
     color: #333;
 }
 
-input textarea {
+input, textarea {
     display: block;
     width: 100%;
     padding: 10px;
@@ -75,6 +68,114 @@ footer {
 }
 
 .productos {
+    padding: 25px;
+    margin: 3px 3px 3px 3px; 
+}
+
+
+
+body {
+    background-color: white;
+}
+
+.boxShop {
+    display: flex;
+}
+.boxContacto {
+    display: inline-flex
+}
+
+.padder {
+    padding-left: 80px;
+}
+
+.menuLateral {
+    padding-top: 80px;
+    padding-left: 10px;
+}
+
+.tituloCentrado {
+    text-align: center;
+    text-transform: uppercase;
     padding: 20px;
-    max-height: 150px;
+}
+.forms {
+    padding: 10px 250px 10px 250px;
+}
+
+.marcosPreguntas {
+    padding: 10px 250px 10px 250px;
+    margin: auto;
+    
+}
+
+.marcoParrafo {
+    border: solid black;
+    text-align: justify;
+}
+
+.tituloColor {
+    color: lightblue;
+}
+
+iframe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+}
+
+blockquote {
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.instagram-section {
+    background-color: #333; 
+    color: #fff; 
+    padding: 20px 0; 
+    text-align: center;
+}
+
+.instagram-section img {
+    max-width: 100px;
+    display: block;
+    margin: 0 auto 20px; 
+}
+
+.instagram-section p {
+    font-size: 18px; 
+
+}
+
+.carousel-item {
+    width: 100%;
+    height: 400px; 
+    overflow: hidden;
+}
+
+.carousel-item img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+@media (max-width: 600px) {
+    .marcoParrafo {
+        white-space: normal; 
+        border: none;
+        padding: 0%;
+    }
+}
+
+
+.form-container {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
 }
